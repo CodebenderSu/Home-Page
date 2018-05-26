@@ -1,0 +1,45 @@
+/* Mobile */
+body {
+  margin: 0 5vw;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 10vh;
+  background-color: #777;
+  color: #fff;
+}
+.toolbar {
+  height: 4vh;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+}
+.social-media {
+  width: 30%;
+}
+.tabs {
+  width: 70%;
+  background-color: #111;
+}
+.primary-links {
+  height: 30vh;
+}
+.secondary-links {
+
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0 10vw;
+    width: 80vw;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0 20vw;
+    width: 60vw;
+  }
+}
